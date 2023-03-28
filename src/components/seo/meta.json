@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_seo_metas",
+  "info": {
+    "displayName": "meta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metaRobots": {
+      "type": "string"
+    },
+    "canonicalURL": {
+      "type": "string",
+      "regex": "^$|^[a-zA-Z/-]+$",
+      "unique": false
+    },
+    "metaTitleSuffix": {
+      "type": "string",
+      "required": false
+    },
+    "facebook": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.facebook"
+    },
+    "twitter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.twitter"
+    }
+  }
+}

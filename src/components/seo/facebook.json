@@ -1,27 +1,18 @@
 {
-  "collectionName": "components_shared_meta_socials",
+  "collectionName": "components_seo_facebooks",
   "info": {
-    "displayName": "metaSocial"
+    "displayName": "facebook"
   },
   "options": {},
   "attributes": {
-    "socialNetwork": {
-      "type": "enumeration",
-      "enum": [
-        "Facebook",
-        "Twitter"
-      ],
-      "required": true
-    },
     "title": {
       "type": "string",
-      "required": true,
+      "required": false,
       "maxLength": 60
     },
     "description": {
       "type": "string",
-      "maxLength": 65,
-      "required": true
+      "maxLength": 65
     },
     "image": {
       "allowedTypes": [
